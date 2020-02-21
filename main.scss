@@ -8,10 +8,12 @@
 	background-color: #ccc;
 	padding: 10px;
 	display: flex;
-	// height: 2000px;
+	height: 2000px;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: flex-start;
+	flex-wrap: wrap;
+	align-content: flex-end;
 }
 
 .item {
